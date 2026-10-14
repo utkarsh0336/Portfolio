@@ -1,0 +1,13 @@
+{
+  "source": "User-supplied WhatsApp JPEG attachments",
+  "count": 35,
+  "groups": {
+    "world-mart": 5,
+    "bankability": 5,
+    "rolefit-ai": 5,
+    "fraud-detection": 5,
+    "dress-recognition": 5,
+    "misc": 10
+  },
+  "notes": "Original files copied unchanged. Supplied graphics are portfolio concepts; sample data and concept labels are preserved."
+}

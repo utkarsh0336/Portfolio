@@ -1,0 +1,3 @@
+export default function CardArrow(){
+ return <span className="card-arrow-wrap" aria-hidden="true"><svg className="card-arrow" viewBox="0 0 60 50" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path className="arrow-shaft" pathLength="1" d="M3 21C17 21 35 20.6 48 21M3 28C18 26 35 26 47 25"/><path className="arrow-sketch" pathLength="1" d="M3 23L8 25L5 22L14 23L8 26L32 24L49 23L39 8L43 16L54 23L44 30L37 43L42 34L53 26M7 24L29 23L45 24"/><path className="arrow-head" pathLength="1" d="M48 21C42 17 37 10 36 3L40 2C41 10 49 18 57 20V26C49 27 42 34 39 46L35 44C37 35 42 29 47 25"/><path className="arrow-tail" pathLength="1" d="M3 21L1 22L3 28"/></svg></span>;
+}

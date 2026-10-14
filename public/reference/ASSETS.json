@@ -1,0 +1,20 @@
+{
+  "source": "https://oorjakapoor.com/",
+  "purpose": "Exact reference scene layers requested by the user for this local recreation",
+  "ownership": "These are reference-site assets, not original Utkarsh artwork. No new license or ownership is asserted.",
+  "assets": {
+    "sky.webp": "https://oorjakapoor.com/assets-home/bg.webp",
+    "sky-mobile.webp": "https://oorjakapoor.com/assets-home/bg-portrait.webp",
+    "mountain.webp": "https://oorjakapoor.com/assets-home/mountain-hd-2x.webp",
+    "cloud.webp": "https://oorjakapoor.com/assets-home/floating-cloud-1.webp",
+    "firefly.svg": "https://oorjakapoor.com/assets-home/firefly.svg",
+    "laptop.webp": "https://oorjakapoor.com/assets-home/laptop.webp",
+    "hand.webp": "https://oorjakapoor.com/assets-home/hand.webp",
+    "ball.webp": "https://oorjakapoor.com/assets-home/ball.webp",
+    "book.webp": "https://oorjakapoor.com/assets-home/book.webp",
+    "field.webp": "https://oorjakapoor.com/assets-play/field.webp",
+    "cow.webp": "https://oorjakapoor.com/assets-play/cow.webp",
+    "play-ball.webp": "https://oorjakapoor.com/assets-play/ball.webp"
+  },
+  "excluded": "The reference person's portraits, character likeness, personal projects and proprietary Awesome Serif font have not been copied into this portfolio."
+}
