@@ -63,3 +63,7 @@ Clipping repair: artwork is clipped inside `scene-artwork`, independently of the
 Work includes World Mart, BankAbility, RoleFit AI, Sigmoid Fraud Detection, Dress Recognition System, and Misc. All 35 supplied concept images are stored unchanged under `public/projects/`, in the supplied group order. Desktop rows expand on pointer hover or keyboard focus with a 620 ms reveal; horizontal strips drift and pause for dragging. Mobile rows stay expanded and support swiping. World Mart links to https://gloviaa.ubossai.com/. The former `/work/glovia` route forwards to World Mart.
 
 The homepage sky and foreground cloud have separate eased pointer parallax layers, while the summit illustration retains its native resolution and feathers its rocky base.
+
+## Project ordering
+
+Keep new projects at the top of `projects` in `src/data/portfolio.ts`. Display numbers are derived automatically from the list order. UBOSS is the newest project, with five captures of the live site and a direct link to https://uboss-website.vercel.app/.

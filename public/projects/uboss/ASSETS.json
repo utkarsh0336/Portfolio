@@ -1,0 +1,12 @@
+{
+  "source": "https://uboss-website.vercel.app/",
+  "type": "Screenshots captured from the user-provided live website",
+  "images": {
+    "01.jpeg": "Homepage",
+    "02.jpeg": "CXO product artwork",
+    "03.jpeg": "World Mart product artwork",
+    "04.jpeg": "AI Avatar product artwork",
+    "05.jpeg": "Interactive AI Avatar concept"
+  },
+  "note": "Original labels identifying illustrative concepts are retained."
+}
