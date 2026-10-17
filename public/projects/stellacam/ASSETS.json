@@ -1,0 +1,13 @@
+{
+  "source": "https://stellacam.vercel.app/",
+  "type": "Original artwork from the user-provided live project; illustrative product visuals, not generated-video output",
+  "images": {
+    "01.png": "/images/hero-camera.png",
+    "02.png": "/images/hero-water.png",
+    "03.png": "/images/hero-orbit.png",
+    "04.png": "/images/hero-code.png",
+    "05.png": "/images/studio-water.png"
+  },
+  "inspected": "2026-10-17",
+  "note": "Public landing page and interactive examples inspected. Studio redirects to sign-in. V1 invite-only status and planned social publishing are retained in the project description."
+}

@@ -1,6 +1,7 @@
-// Content transcribed from the supplied CV; project images are concept previews.
+// Content from the supplied CV and inspected live projects; artwork provenance lives beside each gallery.
 // New projects go first; numbering follows this newest-first display order.
 export const projects = [
+  {slug:'stellacam',name:'StellaCam.ai',color:'#b95c3f',summary:'An AI-assisted creative studio turning complex ideas into narrated educational videos.',stack:'Interactive SVG · Motion design · AI-assisted storytelling',detail:'Built V1 of StellaCam: a creative workflow for turning science, finance and programming concepts into focused 60–90-second English explainers with narration, animated visuals and timed captions. The experience moves from conversational idea development to storyboard review, video generation and MP4 download. A cinematic public site introduces the product through interactive water-cycle, eclipse and algorithm demonstrations. Studio access is currently invite-only for internal testing; Instagram and YouTube publishing are planned next.',context:'Personal project · V1 · Invite-only testing'},
   {slug:'uboss',name:'UBOSS',color:'#b8c59c',summary:'A cinematic company website connecting agents, commerce and human–AI interaction.',stack:'Web development · Motion design · Responsive UI',detail:'Built a visual home for the UBOSS product world, with an editorial landing page, dedicated CXO, World Mart and AI Avatar pages, interactive concept previews, product navigation, FAQs and contact journeys. Bold typography, original artwork and responsive layouts give each product its own identity within a shared experience.',context:'UBOSS · Company website'},
   {slug:'world-mart', name:'World Mart', color:'#c0c7a9', summary:'A multi-tenant B2B/B2C marketplace connecting buyers, sellers, logistics and operations.', stack:'React · TypeScript · Node.js · Prisma · MySQL', detail:'Four role-based portals, tenant isolation and RBAC support catalogue discovery, bulk ordering, quotations and purchasing. A Gemini-powered assistant helps users navigate products; ERP synchronization, logistics tracking and inspection controls connect the order journey.', context:'SPM Medicare · Software Engineer · Aug 2026–Present'},
   {slug:'bankability', name:'BankAbility', color:'#d8bca5', summary:'An accessibility-first Open Banking platform with adaptive interface recommendations.', stack:'KNN · Android · Web · Accessibility', detail:'A KNN-based UAES/SAES pipeline predicts user cohorts. A mathematical scoring model aggregates accessibility signals across sessions to personalize Android and Web experiences.', context:'SynapseHealthTech · Software Engineer · Dec 2025–Aug 2026'},
@@ -32,6 +33,7 @@ export const navigation = [
   {label:'Resume',cardLabel:'Resume',href:links.resume,icon:'▤',art:'/reference/book.webp',external:true},
 ];
 export const projectDestinations: Record<string,{label:string;href:string}> = {
+  stellacam: {label:'EXPLORE STELLACAM',href:'https://stellacam.vercel.app/'},
   uboss: {label:'VISIT UBOSS',href:'https://uboss-website.vercel.app/'},
   'world-mart': {label:'VISIT WORLD MART',href:'https://gloviaa.ubossai.com/'},
   'fraud-detection': {label:'DISCUSS THIS WORK',href:links.email},
@@ -40,8 +42,9 @@ export const projectDestinations: Record<string,{label:string;href:string}> = {
   'bankability': {label:'VIEW MODEL CODE',href:'https://github.com/utkarsh0336/KNN-Model-for-UAES-and-SAES'},
   'rolefit-ai': {label:'VIEW PROJECT CODE',href:'https://github.com/utkarsh0336/Role-Fit-AI'},
 };
-// Supplied portfolio concept artwork, in the attachment order.
+// Supplied concept artwork and original assets from the user’s live projects.
 export const projectScreens: Record<string,{src:string;label:string}[]> = {
+  stellacam: [{src:'/projects/stellacam/01.png',label:'Your ideas, in motion — StellaCam’s cinematic camera identity'},{src:'/projects/stellacam/02.png',label:'Science made visible — water-cycle concept artwork'},{src:'/projects/stellacam/03.png',label:'Celestial mechanics — orbital concept artwork'},{src:'/projects/stellacam/04.png',label:'Code made clear — algorithm concept artwork'},{src:'/projects/stellacam/05.png',label:'From concept to storyboard — water-cycle studio artwork'}],
   uboss: [{src:'/projects/uboss/01.jpeg',label:'Ideas into intelligence — the UBOSS homepage'},{src:'/projects/uboss/02.jpeg',label:'CXO — objective-driven agent coordination'},{src:'/projects/uboss/03.jpeg',label:'World Mart — a world of commerce'},{src:'/projects/uboss/04.jpeg',label:'AI Avatar — a human connection'},{src:'/projects/uboss/05.jpeg',label:'Interactive AI Avatar interface study'}],
   'world-mart': [{"src": "/projects/world-mart/01.jpeg", "label": "Quality and assurance"}, {"src": "/projects/world-mart/02.jpeg", "label": "Smarter procurement"}, {"src": "/projects/world-mart/03.jpeg", "label": "AI-assisted sourcing"}, {"src": "/projects/world-mart/04.jpeg", "label": "Connected operations"}, {"src": "/projects/world-mart/05.jpeg", "label": "Connected logistics"}],
   'bankability': [{"src": "/projects/bankability/01.jpeg", "label": "Personalisation"}, {"src": "/projects/bankability/02.jpeg", "label": "Project overview"}, {"src": "/projects/bankability/03.jpeg", "label": "Calibration"}, {"src": "/projects/bankability/04.jpeg", "label": "Gaze tracking"}, {"src": "/projects/bankability/05.jpeg", "label": "UX insights"}],
