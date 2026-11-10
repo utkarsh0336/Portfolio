@@ -17,10 +17,10 @@ The build exports `out/` for a static host with clean URL support. `npm start` r
 ## Experience and routes
 
 - `/`: illustrated opening, reversible particle breakup / camera pullback, editorial copy and a dotted mountain trail. Scroll after the pullback cycles Work → About → Life Learnings → Resume. An upward gesture from any destination reverses the entrance. Destination dots provide direct selection.
-- `/work`: three projects; each View Project opens `/work/world-mart`, `/work/bankability` or `/work/rolefit-ai`. Galleries support drag, swipe and keyboard selection. Each case has a Work return link.
+- `/work`: nine newest-first projects, including AI Avatar, StellaCam, UBOSS and World Mart; each View Project opens its case-study route. Galleries support drag, swipe and keyboard selection. Each case has a Work return link.
 - `/human`: About, using the floral-shirt and black-outfit photographs with a mosaic transition, a 5.5-second slideshow, manual selection and pause control.
 - `/life-learnings`: ten supplied images in printed order 01–10. Lenis scroll, GSAP image reveals, reading progress and chapter shortcuts. Entire images remain visible; captions are reflections on the supplied English paraphrases.
-- Resume opens the unchanged supplied PDF in a new tab. Contact opens email; social and verified repository links open new tabs.
+- Resume opens the updated single-column, text-based PDF in a new tab. Contact opens email; social and verified repository links open new tabs.
 - Play has been removed. `/play`, `/play/dodge-it` and `/play/orbit` are compatibility redirects to Life Learnings.
 - The name has no final period and bounces letter by letter on hover / keyboard focus. The compass rotates 360 degrees and opens a blurred navigation dialog. Its thank-you card ends with ILY and releases floating hearts on hover or keyboard focus.
 - Lenis owns its animation loop and synchronizes ScrollTrigger on every scroll update. Homepage gestures complete the opening or reverse it smoothly, so a light trackpad gesture cannot strand the scene on its particle frame. Destination cycling accepts gestures anywhere on the homepage and consumes each gesture’s momentum once. Dialogs pause smooth scrolling; reduced-motion preferences use native scrolling and static reveals. The pinned opening runs on mobile as well as desktop; the gallery remains vertical.
@@ -66,4 +66,8 @@ The homepage sky and foreground cloud have separate eased pointer parallax layer
 
 ## Project ordering
 
-Keep new projects at the top of `projects` in `src/data/portfolio.ts`. Display numbers are derived automatically from the list order. UBOSS is the newest project, with five captures of the live site and a direct link to https://uboss-website.vercel.app/.
+Keep new projects at the top of `projects` in `src/data/portfolio.ts`. Display numbers are derived automatically from the list order. AI Avatar is first, with credited official Epic Games technology references. StellaCam and UBOSS follow.
+
+## Resume source
+
+`scripts/build_resume.py` rebuilds `public/Utkarsh-Sahay-Resume.pdf` using ReportLab. The resume uses one column, selectable text and standard headings. AI Avatar is listed under SPM Medicare; conversational interaction is explicitly in development. Credentials, work authorization and unverified performance claims are not inferred.

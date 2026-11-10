@@ -219,3 +219,6 @@ html{scroll-behavior:auto}.brand-bounce{display:inline-flex;white-space:nowrap}.
 @media(prefers-reduced-motion:reduce){.summit-figures{opacity:1;visibility:visible}.cinematic .hero-cast{opacity:0}}
 .figure-person{transform:translateY(6%)}.figure-left-dog{transform:translateY(40%)}.figure-right-dog{transform:translateY(18%)}
 .figure-person{transform:translateY(14%)}
+
+/* Official technology references are visibly distinguished from project output. */
+.reference-credit{position:absolute;left:14px;bottom:14px;max-width:calc(100% - 28px);padding:7px 10px;border-radius:4px;background:#101110df;color:#f4eedc;font:9px/1.4 Arial,sans-serif;letter-spacing:.1em;pointer-events:none}.reference-source{max-width:760px;margin:16px auto 32px;color:#bfb8a2;font-size:12px;line-height:1.7}.reference-source a{text-decoration:underline;text-underline-offset:3px}
